@@ -1,0 +1,23 @@
+.selector-button {
+    background-color: white;
+}
+
+.selector-button:hover {
+    color: white;
+    background-color: black;
+}
+
+.selector-button:focus {
+    color: white;
+    background-color: gray;
+}
+
+.apply-button {
+    color: white;
+    background-color: red;
+}
+
+.apply-button:hover {
+    color: white;
+    background-color: rgb(8, 8, 63);
+}
