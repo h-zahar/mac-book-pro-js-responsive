@@ -14,10 +14,10 @@
 
 .apply-button {
     color: white;
-    background-color: red;
+    background-color: rgba(163, 28, 28, 0.89);
 }
 
 .apply-button:hover {
     color: white;
-    background-color: rgb(8, 8, 63);
+    background-color: rgba(11, 11, 107, 0.822);
 }
