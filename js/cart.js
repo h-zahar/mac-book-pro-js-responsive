@@ -19,22 +19,26 @@ function totalPriceCalculate() {
 
     // If Promo Code is Not Applied
     if (!isApplied) {
+
         // Final Price is Set as Total Price
         document.getElementById('final-price').innerText = totalPrice.innerText;
     }
 
     // If Promo Code is Applied
     else {
+
+        // Final Price is Set 20% Off
         document.getElementById('final-price').innerText = parseFloat(totalPrice.innerText) - (parseFloat(totalPrice.innerText) * 0.2);
     }
 }
 
 // function to Show Values 
 function elementCostShow(elementName, idName) {
+    
     // Get the Specific Section Element
     const showValue = document.getElementById(elementName);
 
-    // Assign Value of the Button
+    // Assign Value of the Button to Show the Value
     showValue.innerText = document.getElementById(idName).value;
 
     // Function Called
@@ -42,7 +46,7 @@ function elementCostShow(elementName, idName) {
 }
 
 
-// Event Handler for Every Section or Button and Call Function to Show Values
+// Event Handler for Every Section or Button and Call the Parameterized Functions to Show Values
 
 document.getElementById('memory-8gb').addEventListener('click', function() {
     elementCostShow('extra-memory-cost', 'memory-8gb');
