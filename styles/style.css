@@ -1,22 +1,27 @@
+/* Class Selection for Configuration Option Buttons */
 .selector-button {
     background-color: white;
 }
 
+/* When Hover on Buttons */
 .selector-button:hover {
     color: white;
     background-color: black;
 }
 
+/* When Focused on Buttons */
 .selector-button:focus {
     color: white;
     background-color: gray;
 }
 
+/* Class Selection for Apply Button */
 .apply-button {
     color: white;
     background-color: rgba(163, 28, 28, 0.89);
 }
 
+/* When Hover on Apply Button */
 .apply-button:hover {
     color: white;
     background-color: rgba(11, 11, 107, 0.822);
